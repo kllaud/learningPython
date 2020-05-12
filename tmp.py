@@ -57,3 +57,17 @@ print(new_phrase)
     
 #-------------------------------------------------------------------
 
+paranoid_an = "Hmm. We’re having trouble finding that site."
+letters = list(paranoid_an)
+for char in letters[:3]:
+    print('\t', char)
+print()
+for char in letters[-5:-1]:
+    print('\t'*2, char)
+print()
+for char in letters[11:25]:
+    print('\t'*3, char)
+
+#-------------------------------------------------------------------
+
+
